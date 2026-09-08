@@ -8,6 +8,7 @@ import InputLabel from '@mui/material/InputLabel';
 import InputAdornment from '@mui/material/InputAdornment';
 import FormControl from '@mui/material/FormControl';
 import Visibility from '@mui/icons-material/Visibility';
+import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import InfoOutlined from '@mui/icons-material/InfoOutlined';
 
 //Style
@@ -43,10 +44,10 @@ export function Login() {
         <>
             <div id="login-content">
                 <img id="login-img" src={mapleLogo} alt="RIT Maple Leaf"/>
+                <h1>Login</h1>
                 <Paper id="login-paper">
                     <form>
-                        <h1>Login</h1>
-                        <TextField id="outlined-basic" label="Email" variant="outlined" /><br />
+                        <TextField id="outlined-basic" width='25ch' label="Email" variant="outlined" /><br />
                         <FormControl sx={{ m: 1, width: '25ch' }} variant="outlined">
                             <InputLabel htmlFor={`${outlinedPasswordId}-input`}>Password</InputLabel>
                             <OutlinedInput

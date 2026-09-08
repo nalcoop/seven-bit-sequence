@@ -19,12 +19,15 @@ html{
   margin: 2%;
 }
 
-#login-paper{
-  width: 33%;
-}
-
-form > h1{
+#login-content > h1{
   font-weight: bold;
   color: #F76902;
 }
 
+#login-paper{
+  width: 33%;
+}
+
+
+
+/***** Login *****/
