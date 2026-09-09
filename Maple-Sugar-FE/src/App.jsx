@@ -6,6 +6,7 @@ import { Dashboard } from './pages/dashboard'
 import { Input } from './pages/input'
 import { Notifications } from './pages/notifications'
 import { Schedule_Admin } from './pages/schedule-admin'
+import { Table } from './pages/table'
 import { Schedule } from './pages/schedule'
 import { Container } from '@mui/material'
 import {Header} from './components/header'
@@ -40,6 +41,7 @@ function App() {
           <Route path="/notifications" element={<Notifications/>}/>
           <Route path="/schedule-admin" element={<Schedule_Admin/>}/>
           <Route path="/schedule" element={<Schedule/>}/>
+          <Route path="/table" element={<Table/>}/>
         </Route>
       </Routes>
     </Router>
